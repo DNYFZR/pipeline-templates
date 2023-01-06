@@ -1,0 +1,31 @@
+# Configuration File
+site_name: "DevOpsHub"
+
+nav:
+    - Home: index.md
+    
+theme:
+  name: material
+
+  font:
+    text: DM Sans
+
+  features:
+    - header.autohide
+  
+  palette:
+    # Dark Mode  
+    - scheme: slate
+      primary: blue
+      accent: pink
+      toggle:
+          icon: material/lightbulb-outline
+          name: Switch to light mode
+     
+    # Light mode
+    - scheme: default
+      primary: blue
+      accent: pink
+      toggle:
+          icon: material/lightbulb 
+          name: Switch to dark mode
